@@ -5,28 +5,15 @@ import HeaderLink from './HeaderLink.astro';
 <header>
 	<nav>
 		<a href="/" class="logo-link">
-			<svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-icon">
-				<circle cx="50" cy="50" r="48" stroke="url(#logo-grad)" stroke-width="4" fill="none"/>
-				<path d="M30 65 Q50 20 70 65" stroke="url(#logo-grad)" stroke-width="4" fill="none" stroke-linecap="round"/>
-				<path d="M35 55 Q50 30 65 55" stroke="url(#logo-grad)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
-				<circle cx="50" cy="50" r="4" fill="url(#logo-grad)"/>
-				<defs>
-					<linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-						<stop offset="0%" stop-color="#6c5ce7"/>
-						<stop offset="100%" stop-color="#a29bfe"/>
-					</linearGradient>
-				</defs>
-			</svg>
 			<span class="logo-text">Cambrian</span>
 		</a>
 		<div class="nav-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<a href="https://cambrianmusic.com" class="nav-main-site" target="_blank" rel="noopener noreferrer">
-				cambrianmusic.com
-				<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M3.5 1.5H10.5V8.5M10.5 1.5L1.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-				</svg>
+		</div>
+		<div class="nav-right">
+			<a href="https://cambrianmusic.com" class="nav-cta" target="_blank" rel="noopener noreferrer">
+				Visit Cambrian
 			</a>
 		</div>
 	</nav>
@@ -36,7 +23,7 @@ import HeaderLink from './HeaderLink.astro';
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		background: rgba(10, 10, 15, 0.85);
+		background: rgba(10, 10, 10, 0.9);
 		backdrop-filter: blur(12px);
 		-webkit-backdrop-filter: blur(12px);
 		border-bottom: 1px solid var(--border-color);
@@ -48,12 +35,9 @@ import HeaderLink from './HeaderLink.astro';
 		align-items: center;
 		justify-content: space-between;
 		padding: 0 1.5em;
-		height: 64px;
+		height: 60px;
 	}
 	.logo-link {
-		display: flex;
-		align-items: center;
-		gap: 0.6em;
 		text-decoration: none;
 		color: var(--text-primary);
 	}
@@ -63,37 +47,39 @@ import HeaderLink from './HeaderLink.astro';
 	.logo-text {
 		font-weight: 600;
 		font-size: 1.125rem;
-		letter-spacing: -0.02em;
+		letter-spacing: -0.01em;
 	}
 	.nav-links {
 		display: flex;
 		align-items: center;
 		gap: 0.25em;
 	}
-	.nav-main-site {
+	.nav-right {
+		display: flex;
+		align-items: center;
+	}
+	.nav-cta {
 		display: inline-flex;
 		align-items: center;
-		gap: 0.35em;
-		margin-left: 0.75em;
-		padding: 0.4em 0.9em;
+		padding: 0.4em 1em;
 		font-size: 0.8125rem;
 		font-weight: 500;
-		color: var(--accent-light);
-		border: 1px solid var(--border-color);
-		border-radius: 6px;
+		color: var(--accent);
+		border: 1px solid var(--accent);
+		border-radius: 20px;
 		transition: all var(--transition);
 	}
-	.nav-main-site:hover {
-		border-color: var(--accent);
-		background: var(--accent-glow);
-		color: var(--accent-light);
+	.nav-cta:hover {
+		background: var(--accent);
+		color: var(--bg-primary);
 	}
 	@media (max-width: 720px) {
 		nav {
 			padding: 0 1em;
 		}
-		.nav-main-site {
-			display: none;
+		.nav-cta {
+			font-size: 0.75rem;
+			padding: 0.35em 0.75em;
 		}
 	}
 </style>

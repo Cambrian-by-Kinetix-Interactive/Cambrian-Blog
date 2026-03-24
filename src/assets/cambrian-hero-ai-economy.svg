@@ -1,0 +1,70 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <radialGradient id="glow5" cx="50%" cy="50%" r="45%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glow5)"/>
+
+  <!-- Timeline line -->
+  <line x1="160" y1="260" x2="860" y2="260" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- "Now" marker -->
+  <circle cx="200" cy="260" r="8" fill="#00d26a"/>
+  <circle cx="200" cy="260" r="14" fill="none" stroke="#00d26a" stroke-width="1" opacity="0.3"/>
+  <text x="200" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#00d26a">Now</text>
+
+  <!-- Future marker -->
+  <circle cx="820" cy="260" r="8" fill="#222222" stroke="#444444" stroke-width="1.5"/>
+  <text x="820" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#666666">5 Years</text>
+
+  <!-- Trend cards floating above/below timeline -->
+
+  <!-- Card 1: Catalog Growth - above -->
+  <rect x="260" y="100" width="200" height="110" rx="10" fill="#141414" stroke="#222222" stroke-width="1"/>
+  <line x1="310" y1="265" x2="310" y2="210" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="310" cy="260" r="4" fill="#333333"/>
+  <!-- Upward trend arrow -->
+  <path d="M295 175 L310 150 L325 175" stroke="#00d26a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="310" y1="150" x2="310" y2="180" stroke="#00d26a" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="360" y="138" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Catalog</text>
+  <text x="360" y="155" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Explosion</text>
+  <text x="360" y="180" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">Quality &gt; volume</text>
+  <text x="360" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">wins long term</text>
+
+  <!-- Card 2: Licensing Clarity - below -->
+  <rect x="440" y="320" width="200" height="110" rx="10" fill="#141414" stroke="#222222" stroke-width="1"/>
+  <line x1="510" y1="255" x2="510" y2="320" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="510" cy="260" r="4" fill="#333333"/>
+  <!-- Shield icon -->
+  <path d="M502 370 L510 362 L518 370 L518 382 Q510 388 502 382 Z" fill="none" stroke="#00d26a" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="553" y="358" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Licensing</text>
+  <text x="553" y="375" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Becomes Standard</text>
+  <text x="553" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">Brands demand clarity</text>
+  <text x="553" y="415" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">Gray areas disappear</text>
+
+  <!-- Card 3: Creator Identity - above -->
+  <rect x="620" y="100" width="200" height="110" rx="10" fill="#141414" stroke="#00d26a" stroke-width="1"/>
+  <line x1="710" y1="265" x2="710" y2="210" stroke="#222222" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="710" cy="260" r="4" fill="#00d26a"/>
+  <!-- Person/star icon -->
+  <circle cx="700" cy="148" r="8" fill="none" stroke="#00d26a" stroke-width="1.5"/>
+  <path d="M690 165 Q700 158 710 165" stroke="#00d26a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <text x="750" y="142" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#00d26a">Creator</text>
+  <text x="750" y="159" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#00d26a">Identity Wins</text>
+  <text x="720" y="184" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">Build your brand now</text>
+  <text x="720" y="199" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#808080">before it's crowded</text>
+
+  <!-- Bottom tagline -->
+  <text x="510" y="470" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#555555">The infrastructure is being built. The time to start is now.</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGrad5)"/>
+  <linearGradient id="borderGrad5" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

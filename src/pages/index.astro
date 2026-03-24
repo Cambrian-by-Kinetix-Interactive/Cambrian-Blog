@@ -34,7 +34,14 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				font-size: 1.125rem;
 				color: var(--text-secondary);
 				max-width: 560px;
-				margin: 0 auto 2.5em;
+				margin: 0 auto 1.5em;
+				line-height: 1.6;
+			}
+			.hero .hero-subtitle {
+				font-size: 1.25rem;
+				color: var(--text-secondary);
+				font-weight: 500;
+				margin-bottom: 1em;
 			}
 			.hero-cta {
 				display: inline-flex;
@@ -65,9 +72,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<section class="hero">
-			<p class="hero-label">Cambrian Blog</p>
-			<h1>Insights on AI Music</h1>
-			<p>{SITE_DESCRIPTION}</p>
+			<p class="hero-label">CambrianMusic™ Blog</p>
+			<h1>The CambrianMusic™ Blog</h1>
+			<p class="hero-subtitle">Insights on AI music, licensing, and building in the new music economy.</p>
+			<p>We write about what's happening in AI music — how to create it, license it, sell it, and buy it. Whether you're a creator building a catalog or a buyer looking for commercial-ready tracks, this is where we share what we know.</p>
 			<a href="/blog" class="hero-cta">Read the Blog</a>
 		</section>
 		<Footer />

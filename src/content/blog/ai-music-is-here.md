@@ -2,7 +2,7 @@
 title: 'AI Music Is Here Whether the Industry Likes It or Not'
 description: 'The music industry is changing fast. Here is what is actually happening and what it means for creators.'
 pubDate: 'Mar 24 2026'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 Let's be honest — the music industry spent the last few years arguing about whether AI music was "real" music. That debate is over. AI music is here, it's getting better every month, and creators are already making money from it.

@@ -1,0 +1,50 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <radialGradient id="glow4" cx="50%" cy="45%" r="40%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.05"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glow4)"/>
+
+  <!-- Search bar -->
+  <rect x="240" y="100" width="540" height="52" rx="26" fill="#141414" stroke="#333333" stroke-width="1"/>
+  <!-- Magnifying glass icon -->
+  <circle cx="274" cy="126" r="9" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <line x1="281" y1="133" x2="287" y2="139" stroke="#555555" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="300" y="131" font-family="Inter, sans-serif" font-size="14" fill="#555555">Search by mood, genre, energy...</text>
+
+  <!-- Three checklist items -->
+  <!-- Item 1 -->
+  <rect x="200" y="190" width="620" height="64" rx="10" fill="#141414" stroke="#222222" stroke-width="1"/>
+  <rect x="224" y="210" width="24" height="24" rx="6" fill="#0d2b18" stroke="#00d26a" stroke-width="1.5"/>
+  <path d="M230 222 L234 226 L242 218" stroke="#00d26a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="268" y="220" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Where is the music going?</text>
+  <text x="268" y="237" font-family="Inter, sans-serif" font-size="11" fill="#808080">YouTube, game, ad, podcast, film</text>
+
+  <!-- Item 2 -->
+  <rect x="200" y="268" width="620" height="64" rx="10" fill="#141414" stroke="#222222" stroke-width="1"/>
+  <rect x="224" y="288" width="24" height="24" rx="6" fill="#0d2b18" stroke="#00d26a" stroke-width="1.5"/>
+  <path d="M230 300 L234 304 L242 296" stroke="#00d26a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="268" y="298" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#ffffff">How long will you use it?</text>
+  <text x="268" y="315" font-family="Inter, sans-serif" font-size="11" fill="#808080">One-off project vs. permanent brand asset</text>
+
+  <!-- Item 3 -->
+  <rect x="200" y="346" width="620" height="64" rx="10" fill="#141414" stroke="#222222" stroke-width="1"/>
+  <rect x="224" y="366" width="24" height="24" rx="6" fill="#0d2b18" stroke="#00d26a" stroke-width="1.5"/>
+  <path d="M230 378 L234 382 L242 374" stroke="#00d26a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="268" y="376" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Do you need exclusivity?</text>
+  <text x="268" y="393" font-family="Inter, sans-serif" font-size="11" fill="#808080">Non-exclusive is cheaper — exclusive is yours alone</text>
+
+  <!-- Bottom tagline -->
+  <text x="510" y="456" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#555555">Know what you need. Find it fast. License with confidence.</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGrad4)"/>
+  <linearGradient id="borderGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

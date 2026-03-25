@@ -1,0 +1,58 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glow" cx="50%" cy="55%" r="50%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#222222" stroke-width="0.5"/>
+  <line x1="0" y1="250" x2="1200" y2="250" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="380" x2="1200" y2="380" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="185" x2="1200" y2="185" stroke="#141414" stroke-width="0.5"/>
+  <line x1="0" y1="445" x2="1200" y2="445" stroke="#141414" stroke-width="0.5"/>
+
+  <!-- Audio waveform -->
+  <path d="M0 315 Q50 315 70 280 Q90 245 120 290 Q150 335 180 260 Q210 185 240 240 Q270 295 300 220 Q330 145 360 200 Q390 255 420 190 Q450 125 480 200 Q510 275 540 210 Q570 145 600 220 Q630 295 660 240 Q690 185 720 250 Q750 315 780 270 Q810 225 840 275 Q870 325 900 295 Q930 265 960 300 Q990 335 1020 310 Q1050 285 1080 305 Q1110 325 1140 312 Q1170 300 1200 315"
+    stroke="#00d26a" stroke-width="2.5" fill="none" opacity="0.7"/>
+
+  <!-- Secondary wave -->
+  <path d="M0 315 Q60 315 100 295 Q140 275 180 300 Q220 325 260 285 Q300 245 340 280 Q380 315 420 290 Q460 265 500 295 Q540 325 580 300 Q620 275 660 298 Q700 320 740 305 Q780 290 820 308 Q860 325 900 312 Q940 300 980 310 Q1020 320 1060 312 Q1100 305 1140 310 Q1180 316 1200 315"
+    stroke="#00d26a" stroke-width="1.5" fill="none" opacity="0.25"/>
+
+  <!-- Glow dots -->
+  <circle cx="330" cy="200" r="4" fill="#00d26a" opacity="0.7"/>
+  <circle cx="480" cy="200" r="3" fill="#00d26a" opacity="0.5"/>
+  <circle cx="600" cy="220" r="3" fill="#00d26a" opacity="0.5"/>
+  <circle cx="330" cy="200" r="14" fill="#00d26a" opacity="0.07"/>
+  <circle cx="480" cy="200" r="12" fill="#00d26a" opacity="0.05"/>
+
+  <!-- Green "C" icon -->
+  <circle cx="600" cy="240" r="48" fill="url(#cGrad)" opacity="0.9"/>
+  <text x="600" y="260" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="56" fill="#0a0a0a">C</text>
+
+  <!-- Title -->
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="52" fill="#ffffff">CambrianMusic&#x2122; Blog</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#999999">AI music, licensing, and the new music economy</text>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="624" width="1200" height="6" fill="url(#borderGrad)"/>
+
+  <defs>
+    <linearGradient id="cGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00d26a"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="30%" stop-color="#00d26a"/>
+      <stop offset="70%" stop-color="#00d26a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+</svg>

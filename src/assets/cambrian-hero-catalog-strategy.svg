@@ -1,0 +1,78 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glowCatalog" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glowCatalog)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="255" x2="1020" y2="255" stroke="#222222" stroke-width="0.5"/>
+  <line x1="0" y1="170" x2="1020" y2="170" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="340" x2="1020" y2="340" stroke="#181818" stroke-width="0.5"/>
+
+  <!-- Track catalog grid - rows of rectangles representing tracks -->
+  <!-- Row 1 -->
+  <rect x="180" y="120" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="270" y="120" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="360" y="120" width="80" height="45" rx="4" fill="#00d26a" opacity="0.2" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="450" y="120" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="540" y="120" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="630" y="120" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="720" y="120" width="80" height="45" rx="4" fill="#00d26a" opacity="0.15" stroke="#00d26a" stroke-width="0.5"/>
+
+  <!-- Row 2 -->
+  <rect x="180" y="175" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="270" y="175" width="80" height="45" rx="4" fill="#00d26a" opacity="0.25" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="360" y="175" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="450" y="175" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="540" y="175" width="80" height="45" rx="4" fill="#00d26a" opacity="0.3" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="630" y="175" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="720" y="175" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+
+  <!-- Row 3 -->
+  <rect x="180" y="230" width="80" height="45" rx="4" fill="#00d26a" opacity="0.15" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="270" y="230" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="360" y="230" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="450" y="230" width="80" height="45" rx="4" fill="#00d26a" opacity="0.35" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="540" y="230" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="630" y="230" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="720" y="230" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+
+  <!-- Row 4 -->
+  <rect x="180" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="270" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="360" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="450" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="540" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="630" y="285" width="80" height="45" rx="4" fill="#00d26a" opacity="0.2" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="720" y="285" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+
+  <!-- Row 5 -->
+  <rect x="180" y="340" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="270" y="340" width="80" height="45" rx="4" fill="#00d26a" opacity="0.2" stroke="#00d26a" stroke-width="0.5"/>
+  <rect x="360" y="340" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="450" y="340" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="540" y="340" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="630" y="340" width="80" height="45" rx="4" fill="#1a1a1a" stroke="#333333" stroke-width="0.5"/>
+  <rect x="720" y="340" width="80" height="45" rx="4" fill="#00d26a" opacity="0.15" stroke="#00d26a" stroke-width="0.5"/>
+
+  <!-- Glow halos on highlighted tracks -->
+  <circle cx="400" cy="142" r="20" fill="#00d26a" opacity="0.05"/>
+  <circle cx="580" cy="197" r="22" fill="#00d26a" opacity="0.06"/>
+  <circle cx="490" cy="252" r="24" fill="#00d26a" opacity="0.07"/>
+
+  <!-- Upward trend arrow -->
+  <path d="M830 360 L870 200 L860 210 M870 200 L880 210" stroke="#00d26a" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGradCatalog)"/>
+  <linearGradient id="borderGradCatalog" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

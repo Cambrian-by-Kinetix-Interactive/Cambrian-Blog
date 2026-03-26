@@ -1,0 +1,63 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glowCopy" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glowCopy)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="255" x2="1020" y2="255" stroke="#222222" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1020" y2="180" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="330" x2="1020" y2="330" stroke="#181818" stroke-width="0.5"/>
+
+  <!-- Shield shape -->
+  <path d="M510 130 L600 160 L600 280 Q600 340 510 380 Q420 340 420 280 L420 160 Z"
+    stroke="#00d26a" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M510 130 L600 160 L600 280 Q600 340 510 380 Q420 340 420 280 L420 160 Z"
+    fill="#00d26a" opacity="0.04"/>
+
+  <!-- Copyright symbol inside shield -->
+  <circle cx="510" cy="250" r="45" stroke="#00d26a" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M535 225 Q510 205 485 225 Q465 250 485 275 Q510 295 535 275"
+    stroke="#00d26a" stroke-width="3" fill="none" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Document lines - left side -->
+  <g opacity="0.2">
+    <rect x="200" y="180" width="120" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="195" width="90" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="210" width="105" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="240" width="110" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="255" width="80" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="270" width="100" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="300" width="115" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="200" y="315" width="70" height="3" rx="1.5" fill="#00d26a"/>
+  </g>
+
+  <!-- Document lines - right side -->
+  <g opacity="0.2">
+    <rect x="700" y="180" width="110" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="195" width="85" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="210" width="100" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="240" width="95" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="255" width="115" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="270" width="75" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="300" width="105" height="3" rx="1.5" fill="#00d26a"/>
+    <rect x="700" y="315" width="90" height="3" rx="1.5" fill="#00d26a"/>
+  </g>
+
+  <!-- Glow halos -->
+  <circle cx="510" cy="250" r="80" fill="#00d26a" opacity="0.03"/>
+  <circle cx="510" cy="250" r="120" fill="#00d26a" opacity="0.02"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGradCopy)"/>
+  <linearGradient id="borderGradCopy" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

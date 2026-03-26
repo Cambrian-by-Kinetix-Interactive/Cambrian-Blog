@@ -1,0 +1,65 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glowWork" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glowWork)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="255" x2="1020" y2="255" stroke="#222222" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="1020" y2="180" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="330" x2="1020" y2="330" stroke="#181818" stroke-width="0.5"/>
+
+  <!-- Pipeline stages -->
+  <!-- Stage 1: Prompt -->
+  <rect x="120" y="210" width="140" height="90" rx="8" stroke="#00d26a" stroke-width="1.5" fill="#00d26a" fill-opacity="0.05"/>
+  <text x="190" y="248" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#00d26a" text-anchor="middle" opacity="0.8">PROMPT</text>
+  <text x="190" y="272" font-family="Inter, sans-serif" font-size="10" fill="#a0a0a0" text-anchor="middle" opacity="0.6">Define the sound</text>
+
+  <!-- Arrow 1 -->
+  <line x1="270" y1="255" x2="320" y2="255" stroke="#00d26a" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="320,250 330,255 320,260" fill="#00d26a" opacity="0.4"/>
+
+  <!-- Stage 2: Generate -->
+  <rect x="340" y="210" width="140" height="90" rx="8" stroke="#00d26a" stroke-width="1.5" fill="#00d26a" fill-opacity="0.05"/>
+  <text x="410" y="248" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#00d26a" text-anchor="middle" opacity="0.8">GENERATE</text>
+  <text x="410" y="272" font-family="Inter, sans-serif" font-size="10" fill="#a0a0a0" text-anchor="middle" opacity="0.6">Create variations</text>
+
+  <!-- Arrow 2 -->
+  <line x1="490" y1="255" x2="540" y2="255" stroke="#00d26a" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="540,250 550,255 540,260" fill="#00d26a" opacity="0.4"/>
+
+  <!-- Stage 3: Refine -->
+  <rect x="560" y="210" width="140" height="90" rx="8" stroke="#00d26a" stroke-width="1.5" fill="#00d26a" fill-opacity="0.05"/>
+  <text x="630" y="248" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#00d26a" text-anchor="middle" opacity="0.8">REFINE</text>
+  <text x="630" y="272" font-family="Inter, sans-serif" font-size="10" fill="#a0a0a0" text-anchor="middle" opacity="0.6">Polish and master</text>
+
+  <!-- Arrow 3 -->
+  <line x1="710" y1="255" x2="760" y2="255" stroke="#00d26a" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="760,250 770,255 760,260" fill="#00d26a" opacity="0.4"/>
+
+  <!-- Stage 4: Publish -->
+  <rect x="780" y="210" width="140" height="90" rx="8" stroke="#00d26a" stroke-width="1.5" fill="#00d26a" fill-opacity="0.08"/>
+  <text x="850" y="248" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#00d26a" text-anchor="middle" opacity="0.9">PUBLISH</text>
+  <text x="850" y="272" font-family="Inter, sans-serif" font-size="10" fill="#a0a0a0" text-anchor="middle" opacity="0.6">List and sell</text>
+
+  <!-- Small waveform under pipeline -->
+  <path d="M200 380 Q230 380 250 365 Q270 350 290 370 Q310 390 330 360 Q350 330 370 365 Q390 400 410 370 Q430 340 450 365 Q470 390 490 370 Q510 350 530 372 Q550 395 570 375 Q590 355 610 370 Q630 385 650 372 Q670 360 690 370 Q710 380 730 375 Q750 370 770 375 Q790 380 810 377"
+    stroke="#00d26a" stroke-width="1.5" fill="none" opacity="0.2"/>
+
+  <!-- Glow halos on stages -->
+  <circle cx="190" cy="255" r="50" fill="#00d26a" opacity="0.02"/>
+  <circle cx="850" cy="255" r="50" fill="#00d26a" opacity="0.04"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGradWork)"/>
+  <linearGradient id="borderGradWork" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

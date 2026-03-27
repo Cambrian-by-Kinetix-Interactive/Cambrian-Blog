@@ -1,0 +1,71 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glow" cx="50%" cy="60%" r="55%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glow)"/>
+
+  <!-- Grid floor -->
+  <line x1="0" y1="380" x2="1020" y2="380" stroke="#1a1a1a" stroke-width="0.5"/>
+  <line x1="0" y1="350" x2="1020" y2="350" stroke="#151515" stroke-width="0.5"/>
+  <line x1="0" y1="410" x2="1020" y2="410" stroke="#151515" stroke-width="0.5"/>
+
+  <!-- Perspective grid lines -->
+  <line x1="510" y1="200" x2="0" y2="480" stroke="#181818" stroke-width="0.5"/>
+  <line x1="510" y1="200" x2="1020" y2="480" stroke="#181818" stroke-width="0.5"/>
+  <line x1="510" y1="200" x2="200" y2="480" stroke="#141414" stroke-width="0.5"/>
+  <line x1="510" y1="200" x2="820" y2="480" stroke="#141414" stroke-width="0.5"/>
+
+  <!-- Vertical data bars / pillars -->
+  <rect x="120" y="200" width="4" height="180" fill="#00d26a" opacity="0.3"/>
+  <rect x="160" y="240" width="4" height="140" fill="#00d26a" opacity="0.25"/>
+  <rect x="200" y="160" width="4" height="220" fill="#00d26a" opacity="0.4"/>
+  <rect x="240" y="220" width="4" height="160" fill="#00d26a" opacity="0.2"/>
+  <rect x="280" y="180" width="4" height="200" fill="#00d26a" opacity="0.35"/>
+  <rect x="340" y="140" width="4" height="240" fill="#00d26a" opacity="0.5"/>
+  <rect x="380" y="190" width="4" height="190" fill="#00d26a" opacity="0.3"/>
+  <rect x="440" y="150" width="4" height="230" fill="#00d26a" opacity="0.45"/>
+  <rect x="500" y="170" width="4" height="210" fill="#00d26a" opacity="0.35"/>
+  <rect x="560" y="130" width="4" height="250" fill="#00d26a" opacity="0.55"/>
+  <rect x="600" y="180" width="4" height="200" fill="#00d26a" opacity="0.3"/>
+  <rect x="660" y="160" width="4" height="220" fill="#00d26a" opacity="0.4"/>
+  <rect x="720" y="200" width="4" height="180" fill="#00d26a" opacity="0.3"/>
+  <rect x="780" y="230" width="4" height="150" fill="#00d26a" opacity="0.25"/>
+  <rect x="840" y="250" width="4" height="130" fill="#00d26a" opacity="0.2"/>
+  <rect x="900" y="270" width="4" height="110" fill="#00d26a" opacity="0.15"/>
+
+  <!-- Dollar signs -->
+  <text x="180" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="48" fill="#00d26a" opacity="0.7">$</text>
+  <text x="350" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="56" fill="#00d26a" opacity="0.8">$</text>
+  <text x="460" y="165" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="40" fill="#00d26a" opacity="0.5">€</text>
+  <text x="570" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="60" fill="#00d26a" opacity="0.9">$</text>
+  <text x="680" y="170" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="44" fill="#00d26a" opacity="0.6">$</text>
+  <text x="810" y="240" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="36" fill="#00d26a" opacity="0.4">$</text>
+
+  <!-- Network/connection wave -->
+  <path d="M0 380 Q60 380 100 360 Q140 340 180 365 Q220 390 260 350 Q300 310 340 345 Q380 380 420 355 Q460 330 510 360 Q560 390 600 365 Q640 340 680 358 Q720 375 760 362 Q800 350 840 365 Q880 380 920 372 Q960 364 1000 375 L1020 380"
+    stroke="#00d26a" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Glow on top peaks -->
+  <circle cx="350" cy="120" r="15" fill="#00d26a" opacity="0.06"/>
+  <circle cx="570" cy="110" r="18" fill="#00d26a" opacity="0.07"/>
+  <circle cx="680" cy="140" r="12" fill="#00d26a" opacity="0.05"/>
+
+  <!-- Small sparkle dots -->
+  <circle cx="200" cy="155" r="2" fill="#00d26a" opacity="0.6"/>
+  <circle cx="340" cy="135" r="3" fill="#00d26a" opacity="0.7"/>
+  <circle cx="560" cy="125" r="3" fill="#00d26a" opacity="0.8"/>
+  <circle cx="440" cy="145" r="2" fill="#00d26a" opacity="0.5"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGrad)"/>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

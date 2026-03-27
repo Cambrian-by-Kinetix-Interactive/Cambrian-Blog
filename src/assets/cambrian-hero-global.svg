@@ -1,0 +1,56 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glow" cx="50%" cy="48%" r="45%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glow)"/>
+
+  <!-- Globe -->
+  <circle cx="510" cy="245" r="160" fill="none" stroke="#00d26a" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Globe latitude lines -->
+  <ellipse cx="510" cy="245" rx="160" ry="40" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="510" cy="245" rx="160" ry="80" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="510" cy="245" rx="160" ry="120" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Globe longitude lines -->
+  <ellipse cx="510" cy="245" rx="40" ry="160" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="510" cy="245" rx="80" ry="160" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.3"/>
+  <ellipse cx="510" cy="245" rx="120" ry="160" fill="none" stroke="#00d26a" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- Inner glow -->
+  <circle cx="510" cy="245" r="155" fill="#00d26a" opacity="0.03"/>
+
+  <!-- Orbit rings -->
+  <ellipse cx="510" cy="245" rx="200" ry="200" fill="none" stroke="#00d26a" stroke-width="0.5" opacity="0.2"/>
+  <ellipse cx="510" cy="245" rx="220" ry="185" fill="none" stroke="#00d26a" stroke-width="0.5" opacity="0.15" transform="rotate(15, 510, 245)"/>
+  <ellipse cx="510" cy="245" rx="235" ry="195" fill="none" stroke="#00d26a" stroke-width="0.5" opacity="0.12" transform="rotate(-10, 510, 245)"/>
+
+  <!-- Audio waveform through equator -->
+  <path d="M100 245 Q130 245 150 230 Q170 215 190 238 Q210 260 230 225 Q250 190 270 220 Q290 250 310 215 Q330 180 350 210 Q370 240 390 205 Q410 170 430 210 Q450 250 470 220 Q490 190 510 230 Q530 270 550 225 Q570 180 590 215 Q610 250 630 210 Q650 170 670 215 Q690 260 710 230 Q730 200 750 235 Q770 270 790 248 Q810 225 830 245 Q850 265 870 250 Q890 235 920 248"
+    stroke="#00d26a" stroke-width="2.5" fill="none" opacity="0.8"/>
+
+  <!-- Orbital dots (satellites/nodes) -->
+  <circle cx="310" cy="100" r="4" fill="#00d26a" opacity="0.7"/>
+  <circle cx="710" cy="100" r="4" fill="#00d26a" opacity="0.7"/>
+  <circle cx="310" cy="390" r="3" fill="#00d26a" opacity="0.5"/>
+  <circle cx="710" cy="390" r="3" fill="#00d26a" opacity="0.5"/>
+  <circle cx="280" cy="245" r="3" fill="#00d26a" opacity="0.6"/>
+  <circle cx="740" cy="245" r="3" fill="#00d26a" opacity="0.6"/>
+
+  <!-- Glow halos on dots -->
+  <circle cx="310" cy="100" r="12" fill="#00d26a" opacity="0.06"/>
+  <circle cx="710" cy="100" r="12" fill="#00d26a" opacity="0.06"/>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGrad)"/>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

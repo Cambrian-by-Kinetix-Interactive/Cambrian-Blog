@@ -1,0 +1,70 @@
+<svg width="1020" height="510" viewBox="0 0 1020 510" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1020" height="510" fill="#0a0a0a"/>
+
+  <!-- Subtle radial glow -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00d26a" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1020" height="510" fill="url(#glow)"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="255" x2="1020" y2="255" stroke="#222222" stroke-width="0.5"/>
+  <line x1="0" y1="200" x2="1020" y2="200" stroke="#181818" stroke-width="0.5"/>
+  <line x1="0" y1="310" x2="1020" y2="310" stroke="#181818" stroke-width="0.5"/>
+
+  <!-- Audio waveform behind tag -->
+  <path d="M0 255 Q30 255 50 235 Q70 215 90 240 Q110 265 130 225 Q150 185 170 220 Q190 255 210 200 Q230 145 250 195 Q270 245 290 190 Q310 135 330 185 Q350 235 370 205 Q390 175 410 220 Q430 265 450 230 Q470 195 490 235 Q510 275 530 240 Q550 205 570 240 Q590 275 610 245 Q630 215 650 245 Q670 275 690 255 Q710 235 730 255 Q750 275 770 260 Q790 245 810 258 Q830 270 850 260 Q870 250 890 258 Q910 265 940 258 Q970 250 1000 255 L1020 255"
+    stroke="#00d26a" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- Secondary waveform -->
+  <path d="M0 255 Q40 255 70 270 Q100 285 130 260 Q160 235 190 265 Q220 295 250 270 Q280 245 310 268 Q340 290 370 270 Q400 250 430 265 Q460 280 490 262 Q520 245 550 260 Q580 275 610 260 Q640 245 670 258 Q700 270 730 260 Q760 250 790 258 Q820 265 850 258 Q880 252 910 256 Q940 260 970 256 Q1000 253 1020 255"
+    stroke="#00d26a" stroke-width="1" fill="none" opacity="0.2"/>
+
+  <!-- Tag/label shape -->
+  <g transform="translate(420, 100)">
+    <!-- Tag body with rounded bottom -->
+    <rect x="0" y="40" width="180" height="260" rx="16" fill="none" stroke="#00d26a" stroke-width="2.5" opacity="0.9"/>
+
+    <!-- Tag ring at top -->
+    <circle cx="90" cy="40" r="20" fill="none" stroke="#00d26a" stroke-width="2.5" opacity="0.9"/>
+
+    <!-- Horizontal lines inside tag (metadata rows) -->
+    <line x1="30" y1="110" x2="150" y2="110" stroke="#00d26a" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="140" x2="130" y2="140" stroke="#00d26a" stroke-width="1.5" opacity="0.4"/>
+    <line x1="30" y1="170" x2="145" y2="170" stroke="#00d26a" stroke-width="1.5" opacity="0.6"/>
+    <line x1="30" y1="200" x2="120" y2="200" stroke="#00d26a" stroke-width="1.5" opacity="0.4"/>
+    <line x1="30" y1="230" x2="140" y2="230" stroke="#00d26a" stroke-width="1.5" opacity="0.5"/>
+    <line x1="30" y1="260" x2="110" y2="260" stroke="#00d26a" stroke-width="1.5" opacity="0.3"/>
+
+    <!-- Waveform pattern on the tag surface -->
+    <path d="M30 80 Q50 80 60 70 Q70 60 80 75 Q90 90 100 65 Q110 40 120 70 Q130 85 140 72 Q150 60 150 80"
+      stroke="#00d26a" stroke-width="1" fill="none" opacity="0.5"/>
+
+    <!-- Glow behind tag -->
+    <rect x="-10" y="30" width="200" height="280" rx="20" fill="#00d26a" opacity="0.04"/>
+  </g>
+
+  <!-- Glow dots on waveform peaks -->
+  <circle cx="230" cy="195" r="3" fill="#00d26a" opacity="0.6"/>
+  <circle cx="310" cy="185" r="3" fill="#00d26a" opacity="0.5"/>
+  <circle cx="730" cy="255" r="2" fill="#00d26a" opacity="0.4"/>
+
+  <!-- Music note icon -->
+  <g transform="translate(470, 430)" opacity="0.12">
+    <circle cx="0" cy="15" r="7" fill="#00d26a"/>
+    <circle cx="18" cy="10" r="7" fill="#00d26a"/>
+    <line x1="7" y1="15" x2="7" y2="-18" stroke="#00d26a" stroke-width="2"/>
+    <line x1="25" y1="10" x2="25" y2="-23" stroke="#00d26a" stroke-width="2"/>
+    <line x1="7" y1="-18" x2="25" y2="-23" stroke="#00d26a" stroke-width="2"/>
+  </g>
+
+  <!-- Bottom border accent -->
+  <rect x="0" y="506" width="1020" height="4" fill="url(#borderGrad)"/>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0a0a0a"/>
+    <stop offset="30%" stop-color="#00d26a"/>
+    <stop offset="70%" stop-color="#00d26a"/>
+    <stop offset="100%" stop-color="#0a0a0a"/>
+  </linearGradient>
+</svg>

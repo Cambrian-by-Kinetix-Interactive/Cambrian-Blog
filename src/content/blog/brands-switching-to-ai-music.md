@@ -44,4 +44,4 @@ The brands getting ahead aren't just dipping a toe in — they're building relat
 
 Some are even licensing small catalogs upfront, building a library of on-brand music they can draw from across multiple projects. It's cheaper than licensing track by track, and it gives them consistency across their content.
 
-The market is still early, which means the selection and quality of AI music on platforms like Cambrian is growing fast. Brands that start building their audio strategy around AI music now will have a significant head start over the ones who wait until everyone else has caught on.
+The market is still early, which means the selection and quality of AI music on platforms like Cambrian is growing fast. Brands that start building their audio strategy around [AI music licensing](https://cambrianmusic.com) now will have a significant head start over the ones who wait until everyone else has caught on.

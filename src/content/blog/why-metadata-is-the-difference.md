@@ -42,4 +42,4 @@ Here's what you should focus on every time you upload:
 
 ## Build the Habit
 
-The best creators on Cambrian spend almost as much time on metadata as they do on the music itself. It's not busywork — it's the difference between a track that earns and a track that sits. Every upload is a chance to get better at it.
+The best creators on Cambrian spend almost as much time on metadata as they do on the music itself. It's not busywork — it's the difference between a track that earns and a track that sits. Make sure every upload is [tagged properly](https://cambrianmusic.com) so buyers can find it. Every upload is a chance to get better at it.

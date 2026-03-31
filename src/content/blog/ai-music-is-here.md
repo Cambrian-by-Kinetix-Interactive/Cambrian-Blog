@@ -22,6 +22,6 @@ That's the gap the industry hasn't figured out yet — and it's where a lot of c
 
 ## Where Things Are Headed
 
-The catalog of AI music is going to explode over the next few years. Demand from content creators, game developers, brands, and filmmakers is only going up. The infrastructure around licensing and monetization just needs to catch up.
+The catalog of AI music is going to explode over the next few years. Demand from content creators, game developers, brands, and filmmakers is only going up. The infrastructure around [licensing and monetization](https://cambrianmusic.com) just needs to catch up.
 
 The creators who figure out distribution and licensing now are going to have a serious head start. The window to get established in this space is open — but it won't stay open forever.

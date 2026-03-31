@@ -10,7 +10,7 @@ If you've been sitting on a catalog of AI music and haven't listed it anywhere y
 
 ## Step 1: Create Your Account
 
-Head to cambrianmusic.com and create a creator account. It takes about two minutes. You'll set up your creator profile here — this is your storefront, so give it a real name and a short bio that tells buyers who you are and what kind of music you make.
+Head to cambrianmusic.com and [create your account](https://cambrianmusic.com/login?register=true). It takes about two minutes. You'll set up your creator profile here — this is your storefront, so give it a real name and a short bio that tells buyers who you are and what kind of music you make.
 
 ## Step 2: Upload Your Track
 

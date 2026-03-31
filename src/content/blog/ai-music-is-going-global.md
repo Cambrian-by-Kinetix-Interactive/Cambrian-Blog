@@ -36,6 +36,6 @@ This is one area where the AI music ecosystem has a real structural advantage. P
 
 ## Think Distribution, Not Just Creation
 
-The creation side of AI music is already global. People everywhere are making tracks. The distribution and monetization side is still catching up. Creators who position their catalog for global reach now — with smart tagging, diverse styles, and a presence on platforms that serve international buyers — are going to capture demand that most of the market isn't even thinking about yet.
+The creation side of AI music is already global. People everywhere are making tracks. The distribution and monetization side is still catching up. Creators who position their catalog for [global distribution](https://cambrianmusic.com) now — with smart tagging, diverse styles, and a presence on platforms that serve international buyers — are going to capture demand that most of the market isn't even thinking about yet.
 
 The world doesn't need another creator making the same beats for the same audience. It needs catalogs that serve the entire market. That's where the growth is.

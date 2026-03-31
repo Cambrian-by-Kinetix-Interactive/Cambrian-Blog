@@ -2,7 +2,9 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { BLOG_CATEGORIES, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const categories = BLOG_CATEGORIES.slice(0, 4);
 ---
 
 <!doctype html>
@@ -36,6 +38,30 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 				max-width: 560px;
 				margin: 0 auto 1.5em;
 				line-height: 1.6;
+			}
+			.category-pills {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 0.75rem;
+				list-style: none;
+				margin: 1.5rem 0 0;
+				padding: 0;
+			}
+			.category-pills a {
+				display: inline-flex;
+				padding: 0.55rem 0.9rem;
+				border: 1px solid var(--border-color);
+				border-radius: 999px;
+				background: var(--bg-card);
+				font-size: 0.8125rem;
+				color: var(--text-secondary);
+				text-decoration: none;
+				transition: all var(--transition);
+			}
+			.category-pills a:hover {
+				border-color: var(--accent);
+				color: var(--text-primary);
 			}
 			.hero .hero-subtitle {
 				font-size: 1.25rem;
@@ -76,6 +102,13 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			<p class="hero-subtitle">Insights on AI music, licensing, and building in the new music economy.</p>
 			<p>We write about what's happening in AI music — how to create it, license it, sell it, and buy it. Whether you're a creator building a catalog or a buyer looking for commercial-ready tracks, this is where we share what we know.</p>
 			<a href="/blog" class="hero-cta">Read the Blog</a>
+			<ul class="category-pills">
+				{
+					categories.map((category) => (
+						<li><a href={`/blog/category/${category.slug}/`}>{category.name}</a></li>
+					))
+				}
+			</ul>
 		</section>
 		<Footer />
 	</body>

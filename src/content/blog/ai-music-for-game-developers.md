@@ -1,6 +1,7 @@
 ---
 title: "AI Music for Game Developers: Why It's the Smartest Soundtrack Decision You'll Make"
 description: 'Game developers need a lot of music on tight budgets. AI music solves that problem better than anything else right now.'
+category: 'AI Music'
 pubDate: 'Mar 26 2026'
 heroImage: '../../assets/cambrian-hero-game-audio.svg'
 ---

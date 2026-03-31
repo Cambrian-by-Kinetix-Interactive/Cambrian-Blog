@@ -1,6 +1,7 @@
 ---
 title: 'Why Brands Are Quietly Switching to AI Music for Their Campaigns'
 description: 'Brands and agencies are moving to AI music faster than anyone expected. Here is what is driving the shift.'
+category: 'AI Music'
 pubDate: 'Mar 26 2026'
 heroImage: '../../assets/cambrian-hero-brands.svg'
 ---

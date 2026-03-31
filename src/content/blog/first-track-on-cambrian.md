@@ -1,6 +1,7 @@
 ---
 title: 'How to Get Your First Track Listed on Cambrian in Under 10 Minutes'
 description: 'A step by step walkthrough of listing your first AI music track on Cambrian and getting it in front of buyers.'
+category: 'Platform Updates'
 pubDate: 'Mar 24 2026'
 heroImage: '../../assets/cambrian-hero-first-track.svg'
 ---

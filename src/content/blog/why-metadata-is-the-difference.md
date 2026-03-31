@@ -1,6 +1,7 @@
 ---
 title: 'Why Metadata Is the Difference Between Getting Found and Getting Ignored'
 description: 'Your AI music might be great but if it is not tagged properly nobody will ever hear it. Here is how to get your metadata right.'
+category: 'Creator Guides'
 pubDate: 'Mar 27 2026'
 heroImage: '../../assets/cambrian-hero-tagging.svg'
 ---

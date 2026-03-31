@@ -1,0 +1,152 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../../components/BaseHead.astro';
+import Footer from '../../../components/Footer.astro';
+import FormattedDate from '../../../components/FormattedDate.astro';
+import Header from '../../../components/Header.astro';
+import { BLOG_CATEGORIES } from '../../../consts';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+
+	return BLOG_CATEGORIES.map((category) => ({
+		params: { slug: category.slug },
+		props: {
+			category,
+			posts: posts
+				.filter((post) => post.data.category === category.name)
+				.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+		},
+	}));
+}
+
+const { category, posts } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${category.name} | CambrianMusic™ Blog`} description={category.description} />
+		<style>
+			.page-header {
+				max-width: var(--max-width-wide);
+				margin: 0 auto;
+				padding: 3em 1.5em 1em;
+			}
+			.page-label {
+				font-size: 0.75rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				color: var(--label-color);
+				margin-bottom: 0.75em;
+			}
+			.page-header p:last-of-type {
+				max-width: 48rem;
+				color: var(--text-secondary);
+			}
+			.back-link {
+				display: inline-flex;
+				margin-top: 1rem;
+				text-decoration: none;
+				font-weight: 600;
+			}
+			main {
+				width: var(--max-width-wide);
+				max-width: calc(100% - 2em);
+				margin: 0 auto;
+				padding: 1.5em 1.5em 3em;
+			}
+			.posts-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+				gap: 1.25em;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			.post-card {
+				background: var(--bg-card);
+				border: 1px solid var(--border-color);
+				border-radius: var(--radius-lg);
+				overflow: hidden;
+			}
+			.post-card a {
+				display: block;
+				text-decoration: none;
+				color: inherit;
+			}
+			.post-card img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+			}
+			.post-card-body {
+				padding: 1.25em;
+			}
+			.category {
+				font-size: 0.7rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color: var(--label-color);
+				margin: 0 0 0.75em;
+			}
+			.title {
+				font-size: 1.05rem;
+				font-weight: 600;
+				margin: 0 0 0.5em;
+			}
+			.description {
+				font-size: 0.85rem;
+				color: var(--text-secondary);
+				margin: 0 0 0.75em;
+				line-height: 1.5;
+			}
+			.date {
+				font-size: 0.75rem;
+				color: var(--text-muted);
+			}
+			.empty {
+				padding: 1.5rem;
+				border: 1px dashed var(--border-color);
+				border-radius: var(--radius-lg);
+				color: var(--text-secondary);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<div class="page-header">
+			<p class="page-label">Category</p>
+			<h1>{category.name}</h1>
+			<p>{category.description}</p>
+			<a class="back-link" href="/blog/">← Back to all posts</a>
+		</div>
+		<main>
+			{
+				posts.length > 0 ? (
+					<ul class="posts-grid">
+						{posts.map((post) => (
+							<li class="post-card">
+								<a href={`/blog/${post.id}/`}>
+									{post.data.heroImage && <Image width={720} height={360} src={post.data.heroImage} alt="" />}
+									<div class="post-card-body">
+										<p class="category">{post.data.category}</p>
+										<h2 class="title">{post.data.title}</h2>
+										<p class="description">{post.data.description}</p>
+										<p class="date"><FormattedDate date={post.data.pubDate} /></p>
+									</div>
+								</a>
+							</li>
+						))}
+					</ul>
+				) : (
+					<div class="empty">No posts are published in this category yet.</div>
+				)
+			}
+		</main>
+		<Footer />
+	</body>
+</html>

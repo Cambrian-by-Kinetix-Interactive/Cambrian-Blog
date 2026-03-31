@@ -1,6 +1,7 @@
 ---
 title: 'How to Find the Right Music for Your Project Without the Headache'
 description: 'A practical guide for content creators, developers, and brands who need licensed music fast.'
+category: 'Creator Guides'
 pubDate: 'Mar 24 2026'
 heroImage: '../../assets/cambrian-hero-find-music.svg'
 ---

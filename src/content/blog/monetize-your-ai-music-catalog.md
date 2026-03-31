@@ -1,6 +1,7 @@
 ---
 title: 'How to Actually Monetize Your AI Music Catalog'
 description: 'You have a growing catalog of AI tracks. Here is how to turn that into consistent income instead of just a collection of files.'
+category: 'Make Money'
 pubDate: 'Mar 27 2026'
 heroImage: '../../assets/cambrian-hero-monetize.svg'
 ---

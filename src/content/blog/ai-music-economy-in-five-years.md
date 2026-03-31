@@ -1,6 +1,7 @@
 ---
 title: 'What the AI Music Economy Looks Like in 5 Years'
 description: 'Where is AI music actually headed? Here is an honest look at what the next few years could bring for creators and buyers.'
+category: 'AI Music'
 pubDate: 'Mar 24 2026'
 heroImage: '../../assets/cambrian-hero-ai-economy.svg'
 ---

@@ -1,6 +1,7 @@
 ---
 title: 'Who Owns AI Music? A Plain-English Guide to Copyright in 2026'
 description: 'Copyright and AI music is confusing. Here is what actually matters for creators and buyers right now.'
+category: 'AI Music'
 pubDate: 'Mar 26 2026'
 heroImage: '../../assets/cambrian-hero-copyright.svg'
 ---

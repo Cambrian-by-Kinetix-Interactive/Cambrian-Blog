@@ -5,10 +5,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { getCategoryByName } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, category, pubDate, updatedDate, heroImage } = Astro.props;
+const categorySlug = getCategoryByName(category)?.slug;
 ---
 
 <html lang="en">
@@ -27,8 +29,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.post-meta {
 				display: flex;
 				align-items: center;
+				flex-wrap: wrap;
 				gap: 0.75em;
 				margin-bottom: 1em;
+			}
+			.category-link {
+				display: inline-flex;
+				padding: 0.35rem 0.7rem;
+				border: 1px solid var(--border-color);
+				border-radius: 999px;
+				background: var(--bg-card);
+				color: var(--label-color);
+				font-size: 0.75rem;
+				font-weight: 600;
+				letter-spacing: 0.08em;
+				text-decoration: none;
+				text-transform: uppercase;
 			}
 			.post-meta time {
 				font-size: 0.8125rem;
@@ -80,6 +96,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			<article>
 				<div class="post-header">
 					<div class="post-meta">
+						{categorySlug && <a class="category-link" href={`/blog/category/${categorySlug}/`}>{category}</a>}
 						<FormattedDate date={pubDate} />
 						{
 							updatedDate && (

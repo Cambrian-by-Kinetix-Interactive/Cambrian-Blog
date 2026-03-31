@@ -1,6 +1,7 @@
 ---
 title: 'AI Music Is Here Whether the Industry Likes It or Not'
 description: 'The music industry is changing fast. Here is what is actually happening and what it means for creators.'
+category: 'AI Music'
 pubDate: 'Mar 24 2026'
 heroImage: '../../assets/cambrian-hero-ai-music.svg'
 ---

@@ -1,6 +1,7 @@
 ---
 title: 'AI Music Is Going Global and That Changes Everything'
 description: 'The AI music market is not just a US story. Here is why global distribution matters and how creators can reach buyers worldwide.'
+category: 'AI Music'
 pubDate: 'Mar 27 2026'
 heroImage: '../../assets/cambrian-hero-global.svg'
 ---

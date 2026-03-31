@@ -1,6 +1,7 @@
 ---
 title: 'Music Licensing Explained for AI Creators Who Just Want to Get Paid'
 description: 'Licensing sounds complicated but it does not have to be. Here is what you actually need to know as an AI music creator.'
+category: 'Make Money'
 pubDate: 'Mar 24 2026'
 heroImage: '../../assets/cambrian-hero-licensing.svg'
 ---

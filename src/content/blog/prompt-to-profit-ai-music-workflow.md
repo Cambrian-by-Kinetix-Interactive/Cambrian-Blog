@@ -1,6 +1,7 @@
 ---
 title: 'From Prompt to Profit: A Workflow for Producing Commercial AI Music'
 description: 'A practical workflow for turning AI music tools into a production pipeline that makes real money.'
+category: 'Make Money'
 pubDate: 'Mar 26 2026'
 heroImage: '../../assets/cambrian-hero-workflow.svg'
 ---

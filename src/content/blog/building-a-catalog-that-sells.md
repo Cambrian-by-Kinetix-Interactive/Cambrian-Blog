@@ -1,6 +1,7 @@
 ---
 title: 'Building a Catalog That Actually Sells: Strategy for AI Music Creators'
 description: 'Most AI music creators upload randomly and hope for the best. Here is how to build a catalog with intention.'
+category: 'Creator Guides'
 pubDate: 'Mar 26 2026'
 heroImage: '../../assets/cambrian-hero-catalog-strategy.svg'
 ---

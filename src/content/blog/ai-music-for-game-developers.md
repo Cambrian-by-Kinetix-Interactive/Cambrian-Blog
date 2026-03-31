@@ -41,6 +41,6 @@ Either way, make sure the license covers commercial distribution through game st
 
 ## Start Building Your Soundtrack Library Now
 
-The smartest move for game developers right now is to start building a library of licensed tracks before you need them. Browse by mood, save tracks that fit your project's tone, and license them when you're ready.
+The smartest move for game developers right now is to start building a library of licensed tracks before you need them. Browse by mood, save tracks that fit your project's tone, and find [licensed music](https://cambrianmusic.com) when you're ready.
 
 AI music is only getting better, the selection is growing fast, and the developers who figure out their audio pipeline now will ship better-sounding games without the budget headaches.

@@ -42,7 +42,7 @@ If you're licensing AI music for a project, your main concern is practical: will
 
 Buying through a marketplace with **clear licensing terms** is the safest path. When a platform explicitly grants you a license for commercial use, you have a documented transaction and defined rights. That's far safer than grabbing a track from an unknown source with no paperwork.
 
-The license itself is what protects you as a buyer. Whether the underlying copyright question is fully resolved or not, a clear commercial license from a legitimate marketplace gives you the rights you need to use the music.
+The license itself is what protects you as a buyer. Whether the underlying copyright question is fully resolved or not, a clear commercial license from a legitimate marketplace gives you the [licensing clarity](https://cambrianmusic.com) you need to use the music.
 
 ## Stop Waiting for Perfect Laws
 

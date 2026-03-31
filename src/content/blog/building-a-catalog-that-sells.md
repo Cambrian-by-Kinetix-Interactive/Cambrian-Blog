@@ -42,6 +42,6 @@ Set a realistic upload schedule. Whether that's three tracks a week or ten track
 
 If you're listing on a marketplace like Cambrian, pay attention to what the data is telling you. Which tracks are getting views? Which ones are getting licensed? Where is demand clustering?
 
-Double down on what works. If your ambient tracks are outselling your hip-hop beats three to one, that's not a fluke — that's the market telling you where to focus. The creators who listen to their data grow faster than the ones who don't.
+You can [publish tracks](https://cambrianmusic.com) and start testing what resonates. Double down on what works. If your ambient tracks are outselling your hip-hop beats three to one, that's not a fluke — that's the market telling you where to focus. The creators who listen to their data grow faster than the ones who don't.
 
 Building a catalog that sells isn't about luck. It's about being intentional with what you create, who you create it for, and how you present it. Start with a niche, think like a buyer, and let the data guide your next move.

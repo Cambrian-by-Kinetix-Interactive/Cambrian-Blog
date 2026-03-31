@@ -6,12 +6,15 @@ import HeaderLink from './HeaderLink.astro';
 <header>
 	<nav>
 		<a href="/" class="logo-link">
-			<span class="logo-text">CambrianMusic™</span>
+			<span class="logo-text">Cambrian</span>
+			<span class="logo-sub">powered by Cavexia AI™</span>
 		</a>
 		<div class="nav-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href={`/blog/category/${BLOG_CATEGORIES[0].slug}`}>Categories</HeaderLink>
+			{BLOG_CATEGORIES.map((cat) => (
+				<HeaderLink href={`/blog/category/${cat.slug}/`}>{cat.name}</HeaderLink>
+			))}
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="nav-right">
@@ -51,6 +54,15 @@ import HeaderLink from './HeaderLink.astro';
 		font-weight: 600;
 		font-size: 1.125rem;
 		letter-spacing: -0.01em;
+	}
+	.logo-sub {
+		display: block;
+		font-size: 0.625rem;
+		font-weight: 400;
+		color: var(--text-muted);
+		letter-spacing: 0.02em;
+		line-height: 1;
+		margin-top: -0.1em;
 	}
 	.nav-links {
 		display: flex;

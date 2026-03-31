@@ -30,7 +30,7 @@ This is the question everyone asks and there's no perfect answer. A few guidelin
 - Exclusive licenses are usually **5 to 10 times** the non-exclusive price
 - Buyouts are typically **10 to 20 times** the non-exclusive price
 
-Start somewhere reasonable, watch what actually sells, and adjust from there. Pricing is not permanent.
+Start somewhere reasonable, watch what actually sells, and adjust from there. You can [set pricing](https://cambrianmusic.com) and update it anytime. Pricing is not permanent.
 
 ## One Thing to Get Right From the Start
 

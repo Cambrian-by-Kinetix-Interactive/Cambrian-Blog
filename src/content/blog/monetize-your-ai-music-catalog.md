@@ -36,7 +36,7 @@ Range doesn't mean making music you hate. It means being intentional about cover
 
 ## Use Analytics to Guide Production
 
-Cambrian shows you what's getting views, what's getting licensed, and where demand is concentrated. Use it. If your ambient tracks are outselling your EDM tracks three to one, that's the market telling you something. Make more of what buyers want.
+[Cambrian shows you](https://cambrianmusic.com/dashboard) what's getting views, what's getting licensed, and where demand is concentrated. Use it. If your ambient tracks are outselling your EDM tracks three to one, that's the market telling you something. Make more of what buyers want.
 
 This isn't selling out — it's running a business. You can still make whatever you want on the side. But if the goal is revenue, let the data inform your next batch.
 

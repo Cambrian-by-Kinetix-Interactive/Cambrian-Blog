@@ -30,4 +30,4 @@ Building your creator profile now — before the market gets crowded — is one 
 
 The honest truth is that the commerce layer around AI music is still early. The tools for creation are ahead of the tools for monetization. That gap is going to close, and the platforms and creators who help close it are going to have an outsized role in shaping what this economy looks like.
 
-That's why Cambrian exists. Not to be another place to dump tracks, but to be the infrastructure that turns AI music into an actual economy. We're early, and that's exactly the right time to be here.
+That's why Cambrian exists. Not to be another place to dump tracks, but to be the [marketplace infrastructure](https://cambrianmusic.com) that turns AI music into an actual economy. We're early, and that's exactly the right time to be here.

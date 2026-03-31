@@ -52,6 +52,6 @@ Here's the part most creators skip — and it costs them sales. Your track's **t
 
 Write titles that describe the feeling, not the technical specs. Tag every relevant mood, genre, and use case. Write a one-sentence description that tells a buyer exactly what they're getting.
 
-On a marketplace like Cambrian, metadata is how buyers find you. A great track with bad metadata is invisible. A good track with great metadata will outsell it every time.
+When you're ready, [list your tracks](https://cambrianmusic.com) on a marketplace like Cambrian — metadata is how buyers find you. A great track with bad metadata is invisible. A good track with great metadata will outsell it every time.
 
 The workflow that turns prompts into profit isn't complicated — it just requires treating every step with intention. Define the use case, iterate on the generation, polish the output, and make it findable. Do that consistently, and the sales follow.

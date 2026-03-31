@@ -32,4 +32,4 @@ This sounds obvious but most people skip it. Spend 60 seconds reading what you'r
 
 A lot of buyers still default to traditional stock music out of habit. But AI-generated music has gotten genuinely good, and it comes with clear commercial licensing because there are no legacy rights issues to navigate. For a lot of projects — especially content creation, games, and digital ads — it's a faster and more flexible option than traditional stock.
 
-The catalog on Cambrian is built specifically for commercial use, so you can browse, license, and move on without second-guessing whether you're covered.
+The catalog on Cambrian is built specifically for commercial use, so you can [browse tracks](https://cambrianmusic.com/browse), license, and move on without second-guessing whether you're covered.

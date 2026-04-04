@@ -1,24 +1,26 @@
-import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
-export const prerender = true;
+export async function GET() {
+  const posts = await getCollection("blog");
 
-export const GET: APIRoute = async () => {
-	const posts = (await getCollection('blog')).sort(
-		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-	);
+  const data = posts
+    .sort(
+      (a, b) =>
+        new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+    )
+    .map((post) => ({
+      slug: post.id,
+      title: post.data.title,
+      description: post.data.description,
+      pubDate: post.data.pubDate,
+      heroImage: post.data.heroImage || null,
+    }));
 
-	const data = posts.map((post) => ({
-		slug: post.id,
-		title: post.data.title,
-		description: post.data.description,
-		category: post.data.category,
-		pubDate: post.data.pubDate.toISOString(),
-		updatedDate: post.data.updatedDate?.toISOString() ?? null,
-		url: `/blog/${post.id}/`,
-	}));
-
-	return new Response(JSON.stringify(data), {
-		headers: { 'Content-Type': 'application/json' },
-	});
-};
+  return new Response(JSON.stringify(data), {
+    status: 200,
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+    },
+  });
+}
